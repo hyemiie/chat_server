@@ -10,6 +10,7 @@ const multer = require('multer');
 const path = require('path');
 const GridFS = require('gridfs-stream');
 const fs = require('fs');
+require('dotenv').config();
 
 const Chat = require("./models/chat.model");
 const TeamError = require("./models/team.model");
@@ -145,14 +146,14 @@ app.post('/addTeamError', AddTeamError);
 app.delete('/delete', deleteChat)
 app.get('/allUsers', getAllUsers)
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 
 mongoose
   .connect(
-    "mongodb+srv://yemiojedapo1:09030184479@cluster0.wx4gmqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    process.env.MONGO_URI
   )
   .then(() => {
     console.log("Connected to database!");
