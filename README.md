@@ -45,7 +45,6 @@ Make sure the following are installed:
 
 ```bash
 git clone https://github.com/hyemiie/chat_server
-cd chat_server
 ```
 ### 2. Install dependencies
 
