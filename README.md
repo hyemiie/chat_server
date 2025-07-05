@@ -68,3 +68,51 @@ PORT=5000
 NODE_ENV=development
 
 ```
+
+###4. Start the server
+- Development mode (with auto-restart via nodemon)
+```bash
+npm run dev
+```
+
+- Production mode
+```bash
+npm start
+```
+
+###5.Check if it's working:
+Open your browser and go to `http://localhost:5000`
+You should see a message confirming the server is running.
+
+
+
+## 🔌 API Endpoints
+
+### Authentication
+- POST /register - Register a new user
+- POST /login - User login
+- GET /getCurrentUser - Get current user info
+
+### Teams
+- GET /getAllTeams - Get all available teams
+- POST /addTeam - Create a new team
+- GET /teamChat - Get team chat messages
+- POST /addChat - Send message to team chat
+- DELETE /delete - Delete a chat message
+
+### Team Errors/Issues
+- GET /teamErrors - Get team error
+- POST /addTeamError - Report a team error/issue
+
+### Users
+- GET /allUsers - Get all users in the system
+
+---
+
+
+##🤝 Connect
+This backend API powers the Tier Group Chat application and was built with scalability and reliability in mind. I'm always open to feedback and suggestions
+
+GitHub: @hyemiie
+Frontend Repository: [chat-app-frontend](https://github.com/hyemiie/chatApplication)
+Email: yemiojedapo1@gmail.com
