@@ -113,6 +113,7 @@ You should see a message confirming the server is running.
 ## 🤝 Connect
 This backend API powers the Tier Group Chat application and was built with scalability and reliability in mind. I'm always open to feedback and suggestions
 
-GitHub: @hyemiie
-Frontend Repository: [chat-app-frontend](https://github.com/hyemiie/chatApplication)
+GitHub: [@hyemiie](https://github.com/hyemiie)  
+Frontend Repository: [chat-app-frontend](https://github.com/hyemiie/chatApplication)  
 Email: yemiojedapo1@gmail.com
+
