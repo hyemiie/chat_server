@@ -1,7 +1,6 @@
 # ⚙️ Tier Group Chat App (Backend)
 
-A real-time chat application backend built with **Node.js**, **Express**, and **Socket.IO**.  
-This server handles user authentication, room management, message storage, and real-time WebSocket communication.
+This backend runs on Node.js, Express, and Socket.IO. It handles everything including authentication, managing rooms, storing chats, and real-time WebSocket communication.
 
 ---
 
@@ -53,7 +52,7 @@ npm install
 ```
 
 
-###3. Environment Setup
+### 3. Environment Setup
 Create a .env file in the root directory with the following contents:
 ```bash
 
@@ -69,7 +68,7 @@ NODE_ENV=development
 
 ```
 
-###4. Start the server
+### 4. Start the server
 - Development mode (with auto-restart via nodemon)
 ```bash
 npm run dev
@@ -80,7 +79,7 @@ npm run dev
 npm start
 ```
 
-###5.Check if it's working:
+### 5.Check if it's working:
 Open your browser and go to `http://localhost:5000`
 You should see a message confirming the server is running.
 
@@ -111,7 +110,7 @@ You should see a message confirming the server is running.
 
 
 ## 🤝 Connect
-This backend API powers the Tier Group Chat application and was built with scalability and reliability in mind. I'm always open to feedback and suggestions
+This backend API powers the Tier Group Chat application and was built with scalability and reliability in mind. I'm always open to feedback and suggestions.
 
 GitHub: [@hyemiie](https://github.com/hyemiie)  
 Frontend Repository: [chat-app-frontend](https://github.com/hyemiie/chatApplication)  
