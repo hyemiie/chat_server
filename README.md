@@ -1,6 +1,6 @@
 # ⚙️ Tier Group Chat App (Backend)
 
-This backend runs on Node.js, Express, and Socket.IO. It handles everything including authentication, managing rooms, storing chats, and real-time WebSocket communication.
+This is the backend server for the Chattr team chat app. It runs on Node.js, Express, and Socket.IO, and powers the frontend by handling everything from authentication and room management to chat storage and real-time WebSocket communication
 
 ---
 
